@@ -297,7 +297,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .7);
+    background: rgb(195 195 195 / 70%);
 }
 
 .team-item .team-body {
