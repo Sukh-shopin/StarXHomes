@@ -2021,7 +2021,7 @@ progress {
 
 .table>:not(caption)>*>* {
     padding: .5rem .5rem;
-    background-color: var(--bs-table-bg);
+    background-color: #e41779;
     border-bottom-width: 1px;
     box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg)
 }
@@ -3508,7 +3508,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-    color: #000000;
+    color: #e41779;
     border-color: #ffffff
 }
 

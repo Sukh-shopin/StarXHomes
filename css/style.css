@@ -74,7 +74,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 25px;
     padding: 40px 0;
-    color: var(--bs-white);
+    color: #fff;
     font-size: 17px;
     text-transform: uppercase;
     outline: none;
@@ -170,7 +170,7 @@
 
 .page-header {
     padding-top: 200px;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/sadas.webp) top center no-repeat;
+    background: linear-gradient(rgba(228, 225, 225, 0.7), rgba(0, 0, 0, .7)), url(../img/sadas.webp) top center no-repeat;
     background-size: cover;
 }
 
