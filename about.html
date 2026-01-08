@@ -45,12 +45,33 @@
     <!-- Spinner End -->
 
 
+    <!-- Spinner End
+         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h2 class="mb-0 text-primary text-uppercase"><img src="img/02 copy.png"  width="50" height="40" ></i>Star X Homes</h2>
+                <h10 style="color: #e41779;"> (unit of Discover X)</h10>
+            </a> -->
+
+            <SCRIPT language=JavaScript>
+
+                
+                
+                var message = "function disabled";
+                
+                function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+                
+                if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+                
+                document.onmousedown = rtclickcheck;
+                
+                </SCRIPT>
+
     <!-- Header Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h2 class="mb-0 text-primary text-uppercase"><img src="img/02 copy.png"  width="50" height="40" ></i>Star X Homes</h2>
-                <h10 style="color: #e41779;"> (unit of Discover X)</h10>
+                <h2 class="mb-0 text-primary text-uppercase"><img src="img/02 copy.png"  width="50" height="40" ></i>Star X Homes
+                    <h10 style="color: #e41779;" >(unit of Discover X)</h10>
+                </h2>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -64,22 +85,14 @@
                     <a href="Transportation.html" class="nav-item nav-link">Transportation</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <div class="d-none d-lg-flex">
-                    <a class="btn btn-outline-primary border-2" href="themes/Star X Homes">Call Now</a>
-                </div>
+                
             </div>
         </nav>
 
         <div class="page-header pb-5">
             <div class="container text-center py-5">
-                <h1 class="display-4 text-uppercase mb-3 animated slideInDown" style="color: #f1f1f1;">About</h1>
-                <nav aria-label="breadcrumb animated slideInDown">
-                    <ol class="breadcrumb justify-content-center text-uppercase mb-0">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        
-                        <li class="breadcrumb-item text-primary active" aria-current="page">About</li>
-                    </ol>
-                </nav>
+                <h1 class="display-4 text-uppercase mb-3 animated slideInDown" style="color: #f1f1f1;"></h1>
+                
             </div>
         </div>
     </div>
@@ -127,7 +140,7 @@
                                     Products</a>
                             </div>
                             <div class="col-6">
-                                <a href="#!" class="btn btn-primary py-3 w-100">Book Now</a>
+                                <a href="contact.html" class="btn btn-primary py-3 w-100">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -142,9 +155,9 @@
 
     <div class="container">
 <br><br>
-        <h8>
+        <h4>
             Choosing Star X Modular Homes and Pods offers a transformative approach to modern living, blending high-end technology with sustainable architectural design. One of the primary advantages is the remarkable speed of delivery; while traditional construction takes months or years, Star X utilizes a streamlined factory-controlled environment to complete homes in a fraction of the time. These units are built with precision-engineered galvanized steel structures, ensuring they are earthquake-resistant, wind-resistant, and significantly more durable than conventional brick-and-mortar builds. Customers benefit from a "plug-and-play" experience, where pods arrive nearly 90% complete with pre-installed electrical systems, plumbing, and high-quality finishes. The modular nature allows for extreme flexibility, enabling owners to easily expand their living space or even relocate their entire home if their lifestyle changes. Furthermore, Star X prioritizes eco-friendliness by utilizing sustainable materials and advanced thermal insulation that drastically reduces energy consumption and utility costs. Each pod is a masterpiece of space optimization, featuring smart home integration and sleek, minimalist aesthetics that cater to the luxury "tiny home" or "capsule" lifestyle. By choosing Star X, customers avoid the common headaches of on-site construction such as weather delays, labor shortages, and unexpected budget blowouts. The fixed-cost pricing model provides financial peace of mind, ensuring that the dream of owning a high-tech, stylish home is both predictable and affordable. Whether used as a primary residence, a backyard office, or a luxury vacation rental, these pods offer superior acoustic privacy and fire-grade safety standards. Ultimately, Star X delivers a future-proof housing solution that prioritizes quality, mobility, and sophisticated modern design for the discerning homeowner
-        </h8>
+        </h4>
         <br><br>
         <section>
             <h2>Why Choose Star X Modular Homes?</h2>
@@ -241,6 +254,44 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-primary border-2 btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <style>
+        .whatsapp-float {
+            position: fixed; /* Fixes the position relative to the viewport */
+            bottom: 30px;    /* Distance from the bottom of the screen */
+            left: 20px;     /* Distance from the right of the screen */
+            z-index: 9999;   /* Ensures it stays above other content */
+            width: 60px;     /* Adjust size as needed */
+            height: 60px;
+            background-color: #25D366; /* Standard WhatsApp green */
+            border-radius: 50%; /* Makes it a circle */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+            transition: transform 0.3s ease; /* Smooth hover effect */
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.05); /* Slightly enlarges the button on hover */
+        }
+        
+        .whatsapp-float img, .whatsapp-float i {
+            width: 38px; /* Icon size */
+            height: 38px;
+            color: white; /* For Font Awesome icon color */
+            font-size: 38px; /* For Font Awesome icon size */
+        }
+        
+        .whatsapp-float a {
+            text-decoration: none; /* Removes underline from link */
+        }
+        </style>
+        <div class="whatsapp-float">
+            <a href="https://wa.me/+919205237316" target="_blank" aria-label="Chat with us on WhatsApp">
+                <!-- Using a publicly hosted WhatsApp icon image -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+        </div>
 
 
     <!-- JavaScript Libraries -->

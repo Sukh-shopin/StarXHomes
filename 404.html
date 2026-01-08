@@ -44,13 +44,34 @@
     </div>
     <!-- Spinner End -->
 
+    <!-- Spinner End
+         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h2 class="mb-0 text-primary text-uppercase"><img src="img/02 copy.png"  width="50" height="40" ></i>Star X Homes</h2>
+                <h10 style="color: #e41779;"> (unit of Discover X)</h10>
+            </a> -->
+
+            <SCRIPT language=JavaScript>
+
+                
+                
+                var message = "function disabled";
+                
+                function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+                
+                if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+                
+                document.onmousedown = rtclickcheck;
+                
+                </SCRIPT>
+
 
     <!-- Header Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h2 class="mb-0 text-primary text-uppercase"><img src="img/02 copy.png"  width="50" height="40" ></i>Star X Homes</h2>
-                <h10 style="color: #e41779;"> (unit of Discover X)</h10>
+                <h2 class="mb-0 text-primary text-uppercase"><img src="img/02 copy.png"  width="50" height="40" ></i>Star X Homes
+                    <h10 style="color: #e41779;" >(unit of Discover X)</h10>
+                </h2>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -64,21 +85,17 @@
                     <a href="Transportation.html" class="nav-item nav-link">Transportation</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <div class="d-none d-lg-flex">
-                    <a class="btn btn-outline-primary border-2" href="themes/Star X Homes">Call Now</a>
-                </div>
+                <!--<div class="d-none d-lg-flex">
+                    <a class="btn btn-outline-primary border-2" href="contact.html">Call Now</a>
+                </div>-->
             </div>
         </nav>
 
         <div class="page-header pb-5">
             <div class="container text-center py-5">
-                <h1 class="display-4 text-uppercase mb-3 animated slideInDown" style="color: #f1f1f1;">404 Error</h1>
+                <h1 class="display-4 text-uppercase mb-3 animated slideInDown" style="color: #f1f1f1;"></h1>
                 <nav aria-label="breadcrumb animated slideInDown">
-                    <ol class="breadcrumb justify-content-center text-uppercase mb-0">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        
-                        <li class="breadcrumb-item text-primary active" aria-current="page">404</li>
-                    </ol>
+                    
                 </nav>
             </div>
         </div>
@@ -136,6 +153,44 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-primary border-2 btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <style>
+        .whatsapp-float {
+            position: fixed; /* Fixes the position relative to the viewport */
+            bottom: 30px;    /* Distance from the bottom of the screen */
+            left: 20px;     /* Distance from the right of the screen */
+            z-index: 9999;   /* Ensures it stays above other content */
+            width: 60px;     /* Adjust size as needed */
+            height: 60px;
+            background-color: #25D366; /* Standard WhatsApp green */
+            border-radius: 50%; /* Makes it a circle */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+            transition: transform 0.3s ease; /* Smooth hover effect */
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.05); /* Slightly enlarges the button on hover */
+        }
+        
+        .whatsapp-float img, .whatsapp-float i {
+            width: 38px; /* Icon size */
+            height: 38px;
+            color: white; /* For Font Awesome icon color */
+            font-size: 38px; /* For Font Awesome icon size */
+        }
+        
+        .whatsapp-float a {
+            text-decoration: none; /* Removes underline from link */
+        }
+        </style>
+        <div class="whatsapp-float">
+            <a href="https://wa.me/+919205237316" target="_blank" aria-label="Chat with us on WhatsApp">
+                <!-- Using a publicly hosted WhatsApp icon image -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+        </div>
 
 
     <!-- JavaScript Libraries -->

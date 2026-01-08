@@ -411,10 +411,10 @@ fieldset {
 
 h10 {
     display: block;
-    font-size: 0.9em;
+    font-size: 0.4em;
     margin-top: 0.0em;
     margin-bottom: 0.67em;
-    margin-left: 3em;
+    margin-left: 8em;
     margin-right: 0;
     
   }
@@ -714,7 +714,8 @@ progress {
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y)*-1);
     margin-right: calc(var(--bs-gutter-x)/-2);
-    margin-left: calc(var(--bs-gutter-x)/-2)
+    margin-left: calc(var(--bs-gutter-x)/-2);
+    align-items: flex-end;
 }
 
 .row>* {
